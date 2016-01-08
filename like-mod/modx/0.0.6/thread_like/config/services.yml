@@ -1,0 +1,25 @@
+imports:
+    - { resource: tables.yml }
+
+services:
+    digioz.thread_like.listener:
+        class: digioz\thread_like\event\listener
+        arguments:
+            - @template
+            - @user
+            - @request
+            - @auth
+            - @dbal.conn
+            - %core.root_path%
+            - %core.php_ext%
+            - @digioz.thread_like.functions
+        tags:
+            - { name: event.listener }
+
+    digioz.thread_like.functions:
+        class: digioz\thread_like\core\thread_like
+        arguments:
+            - @dbal.conn
+            - %digioz.thread_like.tables.likes%
+            - %core.root_path%
+            - %core.php_ext%

@@ -1,0 +1,27 @@
+{
+	"name": "digioz/thread_like",
+	"type": "phpbb-extension",
+	"description": "DigiOz Thread Like Extension",
+	"homepage": "http://www.digioz.com",
+	"version": "0.0.1",
+	"time": "2016-01-06",
+	"license": "GPL-2.0",
+	"authors": [
+		{
+			"name": "DigiOz Multimedia",
+			"email": "webmaster@digioz.com",
+			"homepage": "http://www.digioz.com",
+			"role": "Lead Developer"
+		}
+	],
+	"require": {
+		"php": ">=5.3.3",
+		"composer/installers": "~1.0"
+	},
+	"extra": {
+		"display-name": "DigiOz Thread Like Extension",
+		"soft-require": {
+			"phpbb/phpbb": ">=3.1.0-RC4"
+		}
+	}
+}

@@ -1,0 +1,2 @@
+parameters:
+  digioz.thread_like.tables.likes: %core.table_prefix%likes
