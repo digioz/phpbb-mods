@@ -1,0 +1,2 @@
+ModX Creator: https://www.phpbb.com/mods/modx-tools/creator/
+ModX Generator: http://www.phpbb.com/mods/modx-tools/generator/
