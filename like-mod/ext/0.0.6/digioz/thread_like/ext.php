@@ -2,8 +2,8 @@
 /**
 *
 * @package Like Topic Mod
-* @author
-* @copyright (c) 2015
+* @author DigiOz Multimedia, Inc.
+* @copyright (c) 2016
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
 */

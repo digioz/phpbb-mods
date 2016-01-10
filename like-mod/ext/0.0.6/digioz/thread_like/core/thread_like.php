@@ -1,5 +1,14 @@
 <?php
 
+/**
+*
+* @package Like Topic Mod
+* @author DigiOz Multimedia, Inc.
+* @copyright (c) 2016
+* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+*
+*/
+
 namespace digioz\thread_like\core;
 
 class thread_like
